@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string.h>
 
+//Me oyes? Me sientes?
+//JOOOOOOOSSSSSEEEEEEE
+
 using namespace std;
 //funciones
 void bienvenida(){
