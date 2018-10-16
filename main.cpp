@@ -29,17 +29,26 @@ void menuDelPorgrama(){
    //Opción 1: Justar todos los refranes incompletos un un string 
    string respuesta;
    cout << "\n VAMOS CON LOS REFRANES! \n ";
-   	string refranes[2] = {"Vamos a domar al Jose ", "La reina Chunga se pasa Nico se pasa"};
-      for (int i = 1; i < 2; i++) {
-    cout << "\n VAMOS CON LOS REFRANES! \n "<< "El primero es ---->  "<< refranes[0][i]<< " [...] <----";
+   	string refranes[2] = {
+     "Haciendo y deshaciendo se va aprendiendo",
+     "Quien no hace lo que dice, acaba diciendo lo que hace",
+     "Cada persona es dueña de su silencio y esclava de sus palabras",
+     "El que siembra vientos, cosecha tempestades", 
+     "El que a buen árbol se arrima buena sombra le cobija", 
+     "Nadie escarmienta en cabeza ajena", 
+     "A río revuelto, ganancia de pescadores", 
+     "En boca cerrada no entran moscas", 
+     "No hay mal que por bien no venga", 
+     "Haz el bien y no mires a quien", 
+     "A enemigo que huye, puente de plata"};
+    for (int i = 0; i < 2; i++) {
+    string refran = refranes[i];
+    cout << refran.substr(0, 15) << "[...]" << endl;
     cout <<"Completa el refrán" << endl; cin >> respuesta;
-    string correcto = refranes[1][i];
-    if (respuesta == correcto){
-    cout << "OMG OMG OMG! GOOOOD!";
-    }
-    else
-    cout <<"\n Te mamaste RICK, esa no es la respuesta"; 
-    
+    //string correcto = refran.substr(15, -1);
+    //if (respuesta = correcto)){
+      //cout << "OMG OMG OMG! GOOOOD!";
+    //} 
  
 
       	
