@@ -37,7 +37,7 @@ void menuDelPorgrama(){
     //string correcto = refran.substr(15, -1);
     //if (respuesta = correcto)){
       //cout << "OMG OMG OMG! GOOOOD!";
-    } 
+    //} 
  
 
       	
