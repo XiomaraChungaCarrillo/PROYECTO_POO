@@ -30,14 +30,16 @@ void menuDelPorgrama(){
    string respuesta;
    cout << "\n VAMOS CON LOS REFRANES! \n ";
    	string refranes[2] = {"Vamos a domar al Jose ", "La reina Chunga se pasa Nico se pasa"};
-    for (int i = 0; i < 2; i++) {
-    string refran = refranes[i];
-    cout << refran.substr(0, 15) << "[...]" << endl;
+      for (int i = 1; i < 2; i++) {
+    cout << "\n VAMOS CON LOS REFRANES! \n "<< "El primero es ---->  "<< refranes[0][i]<< " [...] <----";
     cout <<"Completa el refrán" << endl; cin >> respuesta;
-    //string correcto = refran.substr(15, -1);
-    //if (respuesta = correcto)){
-      //cout << "OMG OMG OMG! GOOOOD!";
-    //} 
+    string correcto = refranes[1][i];
+    if (respuesta == correcto){
+    cout << "OMG OMG OMG! GOOOOD!";
+    }
+    else
+    cout <<"\n Te mamaste RICK, esa no es la respuesta"; 
+    
  
 
       	
