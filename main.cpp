@@ -34,9 +34,9 @@ void menuDelPorgrama(){
     string refran = refranes[i];
     cout << refran.substr(0, 15) << "[...]" << endl;
     cout <<"Completa el refrán" << endl; cin >> respuesta;
-    string correcto = refran.substr(15, -1);
-    if (respuesta = correcto)){
-      cout << "OMG OMG OMG! GOOOOD!";
+    //string correcto = refran.substr(15, -1);
+    //if (respuesta = correcto)){
+      //cout << "OMG OMG OMG! GOOOOD!";
     } 
  
 
